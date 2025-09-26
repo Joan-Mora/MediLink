@@ -1,0 +1,76 @@
+# --- Sistema / OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# --- Java / Build ---
+*.class
+*.log
+hs_err_pid*
+/release/
+/out/
+/target/
+/build/
+/bin/
+/.gradle/
+/gradle/
+
+# --- Artefactos empaquetado / instaladores ---
+*.exe
+*.msi
+*.dmg
+*.pkg
+*.app
+
+# --- Archivos grandes / empaquetados ---
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# --- Configuración sensible ---
+# Cualquier copia de db-config.bat con credenciales
+**/db-config.bat
+# Variables de entorno y llaves
+.env*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# --- Salidas locales del proyecto MediLink ---
+# Clases y salidas en carpetas de app-image/portable
+/app/**
+
+# Portable y sub-salidas generadas
+/MediLink-Portable
+/MediLink-Portable/backups/
+/MediLink-Portable/**/*.exe
+/MediLink-Portable/**/*.rar
+/MediLink-Portable/MediLink/runtime/
+/MediLink-Portable/MediLink/app/
+/MediLink-Portable/MediLink/classes/
+/MediLink-Portable/MediLink/backups/
+
+# SDKs locales pesados
+/lib/javafx-sdk-*/
+/lib/javafx-sdk-*.zip
+/MediLink-Portable/lib/javafx-sdk-*/
+/MediLink-Portable/lib/javafx-sdk-*.zip
+
+# Librerías descargadas opcionalmente (mantener jar específicos si se versionan)
+# /lib/*.jar
+
+# --- Otros temporales ---
+*.tmp
+*.temp
+~$*

@@ -1,0 +1,23 @@
+# MediLink prerequisites checklist (not Python packages)
+# This file documents system dependencies developers need to install.
+
+# Java
+JDK 17 or later
+
+# Database
+MySQL 8.x or MariaDB 10.x
+
+# JDBC driver
+MySQL Connector/J (copy the jar into lib/ if not using a build tool)
+
+# UI libraries
+Java Swing (bundled with JDK)
+JavaFX SDK 24 (optional, only if you plan to use JavaFX features)
+
+# Windows packaging (optional)
+jpackage (ships with JDK 14+), PowerShell (for scripts under tools/)
+
+# Optional tools
+Git
+VS Code (recommended) + Java extensions
+Pandoc (if you want to export docs to PDF)
